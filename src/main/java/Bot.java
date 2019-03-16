@@ -136,7 +136,7 @@ public class Bot extends TelegramLongPollingBot {
             System.out.println(priceList);
         }
 
-        if (min(priceList) < 156) {
+        if (min(priceList) < 136) {
             sendMsg(myChatId, "Билеты подешевели!!! Новая низкая цена:" + min(priceList) +"$");
         }
     }
